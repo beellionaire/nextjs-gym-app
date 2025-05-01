@@ -1,8 +1,8 @@
 "use client";
 
-import { FaUsers } from "react-icons/fa";
 import { IoIosPricetag } from "react-icons/io";
-import { FaDumbbell } from "react-icons/fa6";
+import { MdNetworkCheck } from "react-icons/md";
+import { RiCustomerService2Line } from "react-icons/ri";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
@@ -12,22 +12,22 @@ import Achievements from "./Achievements";
 
 const featured = [
   {
-    icon: <FaUsers />,
-    title: "award winning team",
+    icon: <RiCustomerService2Line />,
+    title: "Layanan Responsif",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eaque.",
+      "Tim kami siap membantu Anda dengan proses pemasangan yang cepat.",
   },
   {
     icon: <IoIosPricetag />,
-    title: "affordable price",
+    title: "Harga terjangkau",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eaque.",
+      "Dapatkan layanan berkualitas tinggi dengan biaya yang ramah di kantong.",
   },
   {
-    icon: <FaDumbbell />,
-    title: "modern equipment",
+    icon: <MdNetworkCheck />,
+    title: "Koneksi terbaik",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eaque.",
+      "Nikmati pengalaman internet tanpa hambatan, baik untuk streaming, gaming, atau bekerja dari rumah",
   },
 ];
 
@@ -43,17 +43,19 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="h2 text-center"
           >
-            About us
+            Tentang SAML-Fi
           </motion.h2>
           <motion.p
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
-            className="max-w-[600px] mx-auto text-center"
+            className="max-w-[900px] mx-auto text-center"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            assumenda nam consequatur placeat nemo ut?
+            SAML-Fi hadir untuk memberikan pengalaman internet tanpa hambatan
+            bagi rumah dan bisnis Anda. Dengan teknologi modern dan jaringan
+            mesh yang cerdas, kami memastikan setiap sudut ruangan Anda tetap
+            terhubung tanpa lag.
           </motion.p>
         </div>
         {/* Featured Items */}

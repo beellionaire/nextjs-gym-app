@@ -22,7 +22,7 @@ const Membership = () => {
           whileInView="show"
           className="h2 text-white text-center mb-8"
         >
-          Membership
+          Harga Paket
         </motion.h2>
         <motion.div
           variants={fadeIn("up", 0.6)}

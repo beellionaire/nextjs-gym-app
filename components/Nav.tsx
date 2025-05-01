@@ -3,14 +3,14 @@
 import { Link as ScrollLink } from "react-scroll";
 
 const links = [
-  { name: "home", target: "home", offset: -100 },
-  { name: "about", target: "about", offset: -80 },
-  { name: "class", target: "class", offset: -100 },
-  { name: "team", target: "team", offset: 0 },
-  { name: "prices", target: "prices", offset: -100 },
-  { name: "testimonial", target: "testimonial", offset: -100 },
-  { name: "blog", target: "blog", offset: -100 },
-  { name: "contact", target: "contact", offset: 0 },
+  { name: "beranda", target: "home", offset: -100 },
+  { name: "tentang kami", target: "about", offset: -80 },
+  { name: "panduan", target: "class", offset: -100 },
+  { name: "ceo", target: "team", offset: 0 },
+  { name: "harga paket", target: "prices", offset: -100 },
+  { name: "testimoni", target: "testimonial", offset: -100 },
+  { name: "artikel", target: "blog", offset: -100 },
+  { name: "hubungi kami", target: "contact", offset: 0 },
 ];
 
 const Nav = ({ containerStyles }: { containerStyles: string }) => {

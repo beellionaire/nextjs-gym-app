@@ -29,13 +29,13 @@ const Header = () => {
   return (
     <header
       className={` ${
-        headerActive ? "h-[100px]" : "h-[150px]"
-      } w-full fixed bg-primary-200 h-[120px] transition-all max-w-[1920px] z-50 top-0`}
+        headerActive ? "h-[80px]" : "h-[80px]"
+      } w-full fixed bg-[#0118D8] h-[120px] transition-all max-w-[1920px] z-50 top-0`}
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* Logo */}
         <Link href="/home">
-          <Image src={`/assets/img/logo.png`} width={117} height={55} alt="" />
+          <Image src={`/assets/img/logo.png`} width={150} height={90} alt="" />
         </Link>
 
         {/* Mobile Navbar => hidden on large devices */}
@@ -55,8 +55,12 @@ const Header = () => {
         {/* Hide/Open menu button */}
         <div className="flex items-center gap-4">
           <div className="text-white flex items-center gap-4">
-            <button className="hover:text-accent transition-all text-base font-medium capitalize">login</button>
-            <button className="hover:text-accent transition-all text-base font-medium capitalize">register</button>
+            <button className="hover:text-accent transition-all text-base font-medium capitalize">
+              masuk
+            </button>
+            <button className="hover:text-accent transition-all text-base font-medium capitalize">
+              daftar
+            </button>
           </div>
           <button
             className="text-white xl:hidden"

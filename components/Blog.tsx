@@ -20,19 +20,29 @@ const blogData = [
   {
     img: "/assets/img/blog/post1.jpg",
     date: "August 25, 2022",
-    title:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    title: "Optimasi WiFi untuk Koneksi Internet yang Handal dan Lancar",
     href: "",
   },
   {
     img: "/assets/img/blog/post2.jpg",
     date: "August 25, 2022",
-    title:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    title: "Optimasi WiFi untuk Koneksi Internet yang Handal dan Lancar",
     href: "",
   },
   {
     img: "/assets/img/blog/post3.jpg",
+    date: "August 25, 2022",
+    title: "Optimasi WiFi untuk Koneksi Internet yang Handal dan Lancar",
+    href: "",
+  },
+  {
+    img: "/assets/img/blog/post4.jpg",
+    date: "August 25, 2022",
+    title: "Optimasi WiFi untuk Koneksi Internet yang Handal dan Lancar",
+    href: "",
+  },
+  {
+    img: "/assets/img/blog/post4.jpg",
     date: "August 25, 2022",
     title:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
@@ -58,7 +68,7 @@ const Blog = () => {
           viewport={{ once: false, amount: 0.2 }}
           className="h2 text-center mb-8"
         >
-          Articles
+          Artikel
         </motion.h2>
         <motion.div
           variants={fadeIn("up", 0.5)}
@@ -117,7 +127,7 @@ const Blog = () => {
         >
           <CustomButton
             containerStyles="block w-[196px] h-[62px] mx-auto"
-            text="View All"
+            text="Selengkapnya"
           />
         </motion.div>
       </div>

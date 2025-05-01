@@ -12,7 +12,7 @@
   h4,
   h5,
   h6 {
-    @apply font-poppins font-bold uppercase;
+    @apply font-modak font-bold uppercase;
   }
 
   .h1 {

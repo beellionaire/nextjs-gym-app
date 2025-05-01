@@ -12,22 +12,19 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    img: "/assets/img/testimonial/lucy.jpg",
-    message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
-    name: "Lucy",
+    img: "/assets/img/testimonial/steven.png",
+    message: "Mantap, Keren, Streaming lancar pol😍 ",
+    name: "Dokter Steven",
   },
   {
-    img: "/assets/img/testimonial/maria.jpg",
-    message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
-    name: "Maria",
+    img: "/assets/img/trainers/syahrul.jpeg",
+    message: "Harga terjangkau, sukses selalu SAML-FI",
+    name: "Syahrul Sidelaner",
   },
   {
-    img: "/assets/img/testimonial/michael.jpg",
-    message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
-    name: "Michael",
+    img: "/assets/img/trainers/syukron.jpeg",
+    message: "Sinyal sigma",
+    name: "Ahmad Syukron",
   },
 ];
 
@@ -45,7 +42,7 @@ const Testimonial = () => {
           viewport={{ once: false, amount: 0.2 }}
           className="h2 text-center"
         >
-          Testimonials
+          Testimoni
         </motion.h2>
         <motion.div
           variants={fadeIn("up", 0.5)}

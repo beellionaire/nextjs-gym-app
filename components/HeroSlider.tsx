@@ -13,6 +13,7 @@ import SwiperNavButtons from "./SwiperNavButtons";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
+import Link from "next/link";
 
 const HeroSlider = () => {
   return (
@@ -28,7 +29,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="h1 text-center lg:text-left mb-2"
             >
-              <span>Level Up your </span> exercise
+              <span className="text-accent">SMART</span> ACCESS
             </motion.h1>
             <motion.p
               variants={fadeIn("up", 0.6)}
@@ -37,8 +38,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="text-white italic text-center lg:text-left mb-4"
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              cumque voluptatibus, quis assumenda vel et?
+              Sigma Speed, Smart Access
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}
@@ -47,7 +47,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
             >
               <CustomButton
-                text="Get Started"
+                text="Pesan Sekarang"
                 containerStyles="w-[196px] h-[62px]"
               />
             </motion.div>
@@ -66,7 +66,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="h1 text-center lg:text-left mb-2"
             >
-              <span className="text-accent">Join with</span> Our Team
+              <span className="text-accent">MODERN</span> LIVING
             </motion.h1>
             <motion.p
               variants={fadeIn("up", 0.6)}
@@ -75,8 +75,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="text-white italic text-center lg:text-left mb-4"
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              cumque voluptatibus, quis assumenda vel et?
+              Sigma Speed, Smart Access
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}
@@ -85,7 +84,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
             >
               <CustomButton
-                text="Get Started"
+                text="Pesan Sekarang"
                 containerStyles="w-[196px] h-[62px]"
               />
             </motion.div>

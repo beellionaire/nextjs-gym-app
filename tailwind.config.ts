@@ -11,7 +11,7 @@ const config: Config = {
       center: true,
       padding: "15px",
     },
-    screens:{
+    screens: {
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -19,22 +19,23 @@ const config: Config = {
     },
     fontFamily: {
       poppins: "var(--font-poppins)",
-      roboto: "var(--font-roboto)"
+      roboto: "var(--font-roboto)",
+      modak: "var(--font-modak)",
     },
     backgroundImage: {
       hero: "url(/assets/img/hero/bg.png)",
-      membership: "url(/assets/img/membership/bg.jpg)"
+      membership: "url(/assets/img/membership/bg.jpg)",
     },
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#333",
+          DEFAULT: "#FF6A00",
           100: "#484848",
           200: "#151515",
-          300: "#111"
+          300: "#111",
         },
-        accent: "#d4000d"
-      }
+        accent: "#d4000d",
+      },
     },
   },
   plugins: [],

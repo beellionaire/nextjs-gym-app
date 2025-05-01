@@ -1,32 +1,33 @@
 "use client";
 
 import CountUp from "react-countup";
-import { FaBriefcase, FaClock, FaTrophy } from "react-icons/fa";
+import { FaBriefcase, FaTrophy } from "react-icons/fa";
 import { ImUsers } from "react-icons/im";
+import { PiBuildingApartmentFill } from "react-icons/pi";
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
   {
-    number: 100,
+    number: 3,
     icon: FaBriefcase,
-    text: "Courses",
+    text: "Layanan",
   },
   {
     number: 100,
-    icon: FaClock,
-    text: "24/7 Hours",
+    icon: PiBuildingApartmentFill,
+    text: "Cabang",
   },
   {
-    number: 100,
+    number: 0,
     icon: ImUsers,
-    text: "Clients",
+    text: "Partner",
   },
   {
-    number: 100,
+    number: 0,
     icon: FaTrophy,
-    text: "Awards",
+    text: "Penghargaan",
   },
 ];
 

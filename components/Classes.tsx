@@ -7,28 +7,26 @@ import CustomButton from "./CustomButton";
 
 const classes = [
   {
-    name: "Body Building",
-    img: "/assets/img/classes/bodybuilding.jpg",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    name: "Internet",
+    img: "/assets/img/classes/internet.jpg",
+    description: "Koneksi yang handal adalah kunci sukses di era digital.",
   },
   {
-    name: "Cardio",
-    img: "/assets/img/classes/cardio.jpg",
+    name: "Business",
+    img: "/assets/img/classes/business.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+      "Paket dengan bandwidth tinggi dan layanan customer support 24/7 untuk mendukung operasional tanpa henti. ",
   },
   {
-    name: "Crossfit",
-    img: "/assets/img/classes/crossfit.jpg",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    name: "6G Connection",
+    img: "/assets/img/classes/connection.jpg",
+    description: "Inilah era baru konektivitas dengan 6G.",
   },
   {
-    name: "Fitness",
-    img: "/assets/img/classes/fitness.jpg",
+    name: "Gaming and Streaming",
+    img: "/assets/img/classes/gaming.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+      "Rasakan pengalaman gaming tanpa gangguan dengan koneksi cepat. Nikmati film, musik, dan konten favorit Anda dengan kualitas terbaik.",
   },
 ];
 
@@ -78,7 +76,7 @@ const Classes = () => {
                 >
                   <CustomButton
                     containerStyles="w-[164px] h-[46px]"
-                    text="Read More"
+                    text="Selengkapnya"
                   />
                 </motion.div>
               </div>

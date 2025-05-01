@@ -18,68 +18,80 @@ import "swiper/css/pagination";
 // Membership
 const membershipData = [
   {
-    title: "Basic",
+    title: "SAML - Fi Home",
     price: "100.000",
     benefits: [
       {
         icon: FaCheck,
-        text: "Includes Membership",
+        text: "50 Mbps",
       },
       {
         icon: FaCheck,
-        text: "Gym Access",
+        text: "Full Service",
+      },
+      {
+        icon: FaCheck,
+        text: "Unlimited Kuota",
       },
       {
         icon: MdClose,
-        text: "Gym Plan",
+        text: "Bonus Stiker",
       },
       {
         icon: MdClose,
-        text: "Gym Tips",
+        text: "Diskon 5%",
       },
     ],
   },
   {
-    title: "Standard",
+    title: "SAML - Fi Business",
     price: "300.000",
     benefits: [
       {
         icon: FaCheck,
-        text: "Includes Membership",
+        text: "100 Mbps",
       },
       {
         icon: FaCheck,
-        text: "Gym Access",
+        text: "Full Service",
       },
       {
         icon: FaCheck,
-        text: "Gym Plan",
+        text: "Unlimited Kuota",
+      },
+      {
+        icon: FaCheck,
+        text: "Bonus Stiker",
       },
       {
         icon: MdClose,
-        text: "Gym Tips",
+        text: "Diskon 5%",
       },
     ],
   },
   {
-    title: "Premium",
+    title: "SAML - Fi VIP",
     price: "500.000",
     benefits: [
       {
         icon: FaCheck,
-        text: "Includes Membership",
+        text: "300 Mbps",
       },
       {
         icon: FaCheck,
-        text: "Gym Access",
+        text: "Full Service",
       },
       {
         icon: FaCheck,
-        text: "Gym Plan",
+        text: "Unlimited Kuota",
       },
       {
         icon: FaCheck,
-        text: "Gym Tips",
+        text: "Bonus Pijit Dokter Steven",
+      },
+      {
+        icon: FaCheck,
+        text: "Diskon 10%",
       },
     ],
   },
@@ -126,11 +138,11 @@ const MembershipSlider = () => {
                 <p className="text-accent mb-8 flex gap-1 items-center">
                   <sup className="text-xl">IDR</sup>
                   <strong className="text-3xl">{item.price}</strong>
-                  <em className="self-end text-xl"> / Month</em>
+                  <em className="self-end text-xl"> / Bulan</em>
                 </p>
                 <CustomButton
                   containerStyles="w-[196px] h-[62px]"
-                  text="Order Now"
+                  text="Pilih Paket"
                 />
               </div>
             </div>
